@@ -19,20 +19,20 @@ const Main = () => {
                 {!showResult ?
                     <>
                         <div className="greet">
-                            <p><span>Hello, Dev.</span></p>
+                            <p><span>Hello, Developer.</span></p>
                             <p>How can I help you today?</p>
                         </div>
                         <div className="cards">
                             <div className="card">
-                                <p>Suggest beautiful places to see on an upcoming road trip</p>
+                                <p>Suggest beautiful places to go for a vacation.</p>
                                 <img src={assets.compass_icon} alt="" />
                             </div>
                             <div className="card">
-                                <p>Briefly summarize this concept: urban planning</p>
+                                <p>Briefly summarize this concept: SEO</p>
                                 <img src={assets.bulb_icon} alt="" />
                             </div>
                             <div className="card">
-                                <p>Brainstorm team bonding activities for our work retreat</p>
+                                <p>Give me some cooking ideas</p>
                                 <img src={assets.message_icon} alt="" />
                             </div>
                             <div className="card">
