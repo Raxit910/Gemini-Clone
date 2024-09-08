@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+// eslint-disable-next-line no-unused-vars
 import React, { useContext, useState } from 'react';
 import './Sidebar.css';
 import { assets } from '../../assets/assets';
@@ -27,6 +29,7 @@ const Sidebar = () => {
                         <p className="recent-title">Recent</p>
                         {prevPrompts.map((item, index) => {
                             return (
+                                // eslint-disable-next-line react/jsx-key
                                 <div onClick={()=>loadPrompt(item)} className="recent-entry">
                                     <img src={assets.message_icon} alt="" />
                                     <p>{item.slice(0,18)} ...</p>
